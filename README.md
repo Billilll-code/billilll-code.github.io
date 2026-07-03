@@ -7,7 +7,7 @@ Static site, no build step — just HTML/CSS. Ready to push straight to `youruse
 **In `index.html`:**
 - `https://github.com/yourusername` — your real GitHub profile (appears 3 times)
 - `https://github.com/yourusername/your-repo` — link each project to its actual repo (2 places)
-- `your.email@example.com` — your real email
+- `your.email@example.com` — your real email.
 - `https://linkedin.com/in/yourprofile` — your real LinkedIn, or delete that line if you'd rather not include it
 
 **In `assets/`:**

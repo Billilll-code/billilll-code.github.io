@@ -1,0 +1,6 @@
+Put your CV here as: Julian_CV.pdf
+
+The "Download CV" button on the homepage links to:
+  assets/Julian_CV.pdf
+
+Once you add your real PDF with that exact filename, delete this text file.

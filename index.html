@@ -1,138 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Julian — Portfolio</title>
-<meta name="description" content="Julian — CS / Electrical Engineering / Finance student at Monash University. IoT sensor networks, embedded systems, and applied tooling.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julian Kaufhold - Mechatronics Engineering &amp; Finance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header class="topbar">
-  <div class="wrap topbar__inner">
-    <a href="#top" class="logo">JULIAN<span class="cursor">_</span></a>
-    <nav class="nav">
-      <a href="#fields">Fields</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<main id="top">
-
-  <!-- HERO -->
-  <section class="hero wrap">
-    <div class="statusline">
-      <span class="dot" aria-hidden="true"></span>
-      NODE: JULIAN.DEV &nbsp;·&nbsp; STATUS: OPEN TO OPPORTUNITIES
-    </div>
-
-    <h1 class="hero__title">Systems across<br>code, circuits, and capital.</h1>
-
-    <p class="hero__sub">
-      Double-major student at Monash University working across Software/CS, Electrical &amp; Electronics,
-      and Finance — currently building hands-on IoT experience for building-based sensor network roles.
-    </p>
-
-    <div class="hero__actions">
-      <a class="btn btn--primary" href="assets/Julian_CV.pdf" download>Download CV</a>
-      <a class="btn btn--ghost" href="https://github.com/billilll-code" target="_blank" rel="noopener">View GitHub ↗</a>
-    </div>
-  </section>
-
-  <div class="trace" aria-hidden="true"><span class="trace__pulse"></span></div>
-
-  <!-- FIELDS -->
-  <section id="fields" class="section wrap">
-    <p class="eyebrow">FIELDS:</p>
-    <div class="fields">
-      <article class="field">
-        <p class="field__tag">01 / SOFTWARE</p>
-        <h3>Python &amp; C</h3>
-        <p>Backend tooling, data pipelines, and SQLite-backed applications. Comfortable moving between
-          systems-level C and higher-level Python depending on the problem.</p>
-      </article>
-      <article class="field">
-        <p class="field__tag">02 / ELECTRONICS</p>
-        <h3>Circuits &amp; Embedded</h3>
-        <p>Circuit analysis coursework applied to real hardware — currently building multi-node
-          wireless sensor networks on ESP32 dev boards.</p>
-      </article>
-      <article class="field">
-        <p class="field__tag">03 / FINANCE</p>
-        <h3>Applied Finance</h3>
-        <p>Financial analysis and evaluation coursework, used as a lens for reasoning about
-          technical projects and their real-world constraints.</p>
-      </article>
-    </div>
-  </section>
-
-  <div class="trace" aria-hidden="true"><span class="trace__pulse"></span></div>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="section wrap">
-    <p class="eyebrow">PROJECTS:</p>
-
-    <div class="projects">
-      <article class="project">
-        <div class="project__head">
-          <h3>Multi-Node Wireless Sensor Network</h3>
-          <span class="pill pill--progress">IN PROGRESS</span>
+      <header class="hero">
+        <h1>Julian Kaufhold</h1>
+        <p class="tagline">Mechatronics Engineering &amp; Finance Student</p>
+        <p class="pitch">I am a passionate student of mechatronics engineering and finance, with a strong interest in the intersection of technology and business.</p>
+        <div class="hero-links">
+            <a href="https://github.com/billilll-code" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/julian-kaufhold-7a5491313" target="_blank">LinkedIn</a>
         </div>
-        <p class="project__stack">ESP32 · WiFi · Flask · SQLite · MQTT (stretch)</p>
-        <p class="project__desc">
-          A multi-node wireless sensor network built on ESP32 dev boards, built to develop hands-on IoT
-          experience. Phase one ships sensor readings over HTTP POST to a Flask/SQLite backend with a
-          live web dashboard; phase two adds MQTT pub/sub as a stretch goal.
-        </p>
-        <a class="project__link" href="https://github.com/billilll-code/your-repo" target="_blank" rel="noopener">Repository ↗</a>
-      </article>
+    </header>
 
-      <article class="project">
-        <div class="project__head">
-          <h3>Opportunity Bank</h3>
-          <span class="pill pill--shipped">SHIPPED</span>
-        </div>
-        <p class="project__stack">Flask · SQLite · Brave Search API</p>
-        <p class="project__desc">
-          A local tool for tracking and discovering internships, projects, and certificates across
-          software, electronics, and finance. A discovery layer surfaces new leads into a review queue
-          rather than auto-populating the database, keeping the underlying data trustworthy.
-        </p>
-        <a class="project__link" href="https://github.com/billilll-code/your-repo" target="_blank" rel="noopener">Repository ↗</a>
-      </article>
+    <main>
+                <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Ultrasonic Distance Meter</h3>
+                    <p>An Arduino-based distance measurement system using an HC-SR04 ultrasonic sensor with real-time display on a 16x2 LCD screen. Measures distances in meters with four decimal places of precision, triggered by a pushbutton.</p>
+                    <div class="tags">
+                        <span class="tag">Arduino</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Electronics</span>
+                    </div>
+                    <a href="https://github.com/Billilll-code/arduino-digital-distance-meter" target="_blank" class="project-link">View on GitHub</a>
+                </article>
 
-      <article class="project project--more">
-        <h3>More on GitHub</h3>
-        <p class="project__desc">Coursework, smaller scripts, and work in progress.</p>
-        <a class="project__link" href="https://github.com/billilll-code" target="_blank" rel="noopener">View profile ↗</a>
-      </article>
-    </div>
-  </section>
+                <article class="project-card">
+                    <h3>___</h3>
+                    <p>___</p>
+                    <div class="tags">
+                        <span class="tag">___</span>
+                        <span class="tag">___</span>
+                        <span class="tag">___</span>
+                    </div>
+                    <a href="___" target="_blank" class="project-link">View on GitHub</a>
+                </article>
 
-  <div class="trace" aria-hidden="true"><span class="trace__pulse"></span></div>
+                <article class="project-card">
+                    <h3>___</h3>
+                    <p>___</p>
+                    <div class="tags">
+                        <span class="tag">___</span>
+                        <span class="tag">___</span>
+                        <span class="tag">___</span>
+                    </div>
+                    <a href="___" target="_blank" class="project-link">View on GitHub</a>
+                </article>
+            </div>
+        </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section wrap section--contact">
-    <p class="eyebrow">CONTACT:</p>
-    <h2 class="contact__title">Get in touch.</h2>
-    <div class="contact__links">
-      <a href="mailto:Julianfnkaufhold@gmail.com">Julianfnkaufhold@gmail.com</a>
-      <a href="https://github.com/billilll-code" target="_blank" rel="noopener">GitHub ↗</a>
-      <a href="https://linkedin.com/in/billilll-code" target="_blank" rel="noopener">LinkedIn ↗</a>
-    </div>
-  </section>
+                <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-category">
+                <h3>Engineering</h3>
+                <div class="skills-list">
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">C/C++</span>
+                    <span class="skill-badge">Arduino</span>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Finance</h3>
+                <div class="skills-list">
+                    <span class="skill-badge">R studios</span>
+                    <span class="skill-badge">Excel</span>
+                    <span class="skill-badge">MQL 5</span>
+                </div>
+            </div>
+        </section>
 
-</main>
+                <section class="experience" id="experience">
+            <h2>Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>VISTA role</h3>
+                        <span class="experience-date">Ongoing</span>
+                    </div>
+                    <p class="experience-org">Monash VISTA</p>
+                    <p>description of the role and responsibilities</p>
+                </div>
 
-<footer class="footer wrap">
-  <p>Built with HTML &amp; CSS · Hosted on GitHub Pages</p>
-</footer>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>___</h3>
+                        <span class="experience-date">___ - ___</span>
+                    </div>
+                    <p class="experience-org">___</p>
+                    <p>___</p>
+                </div>
+            </div>
+        </section>
 
+                <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <p class="contact-intro">Interested in working together? Reach out or download my CV below.</p>
+            <a href="assets/cv.pdf" download="JulianKaufhold-CV.pdf" class="cv-button">Download CV (PDF)</a>
+            <div class="contact-links">
+                <a href="mailto:julian.kaufhold@gmail.com">Email</a>
+                <a href="https://github.com/billilll-code" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/julian-kaufhold-7a5491313" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hosted on GitHub Pages</p>
+    </footer>
 </body>
 </html>
